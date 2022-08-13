@@ -1,0 +1,37 @@
+.AdviceBox {
+  position: relative;
+  background-color: var(--color-secondary);
+  padding: 3em;
+  border-radius: 1em;
+  width: calc(500px + 3em);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.AdviceBox svg {
+  color: var(--color-primary);
+  font-size: 1.75rem;
+  position: absolute;
+  background-color: var(--color-white);
+  padding: 0.75em;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  bottom: 0;
+  transform: translateY(50%);
+  transition: ease-in-out 0.3s;
+}
+
+@media screen and (max-width: 26rem) {
+  .AdviceBox {
+    max-width: 350px;
+    padding: 3em 1.5em;
+    transform: translateY(-25%);
+  }
+}

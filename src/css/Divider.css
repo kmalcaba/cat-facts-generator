@@ -1,0 +1,15 @@
+.Divider {
+  background-image: url(../img/pattern-divider-desktop.svg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 2em 0;
+}
+
+@media screen and (max-width: 475px) {
+  .Divider {
+    background-image: url(../img/pattern-divider-mobile.svg);
+    padding: 1em 0;
+  }
+}
