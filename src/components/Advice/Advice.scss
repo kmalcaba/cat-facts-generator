@@ -1,0 +1,14 @@
+@import "../../styles/colors.scss";
+
+q.Advice {
+  font-size: 1.75rem;
+  color: $color-white;
+  margin: 1em 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 26rem) {
+  q.Advice {
+    font-size: 1.5rem;
+  }
+}

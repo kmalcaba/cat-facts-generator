@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { IoPaw } from "react-icons/io5";
+import { FaDiceFive } from "react-icons/fa";
 
-import "../css/AdviceBox.css";
-import AdviceNumber from "./AdviceNumber";
-import Advice from "./Advice";
-import Divider from "./Divider";
+import "./AdviceBox.scss";
+import AdviceNumber from "../AdviceNumber/AdviceNumber";
+import Advice from "../Advice/Advice";
+import Divider from "../Divider/Divider";
 
 const AdviceBox = () => {
   const [advice, setAdvice] = useState({
@@ -31,7 +31,7 @@ const AdviceBox = () => {
       <AdviceNumber adviceId={advice.id} />
       <Advice advice={advice.advice} />
       <Divider />
-      <IoPaw handleClick={getAdvice} />
+      <FaDiceFive onClick={getAdvice} />
     </div>
   );
 };
