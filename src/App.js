@@ -1,5 +1,5 @@
-import "./App.css";
-import AdviceBox from "./components/AdviceBox";
+import "./App.scss";
+import AdviceBox from "./components/AdviceBox/AdviceBox";
 
 function App() {
   return (

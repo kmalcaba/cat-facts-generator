@@ -1,8 +1,0 @@
-.App {
-  /* background-color: hsl(218, 23%, 16%); */
-  background-color: var(--color-black);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
