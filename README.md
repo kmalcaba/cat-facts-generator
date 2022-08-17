@@ -13,7 +13,6 @@ This was a solution to a frontendmentor challenge. I wanted to change it using a
 
 ### Useful resources
 
-- [reactjs - How to display svg icons(.svg files) in UI using React Component? - Stack Overflow](https://stackoverflow.com/questions/42296499/how-to-display-svg-icons-svg-files-in-ui-using-react-component) - Here's where I got the bright idea to make the Dice svg as a React  Component... though I'm not too sure if I'm violating any best practices by doing that lol
 - [Creating Glow Effects with CSS / Coder's Block](https://codersblock.com/blog/creating-glow-effects-with-css/) - This helped me to create the glow effects for the button's hover and active states
 
 ### Continued development
