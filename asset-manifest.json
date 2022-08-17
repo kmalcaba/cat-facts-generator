@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/random-advice-generator/static/css/main.cac8305f.css",
+    "main.js": "/random-advice-generator/static/js/main.4f0032ab.js",
+    "index.html": "/random-advice-generator/index.html",
+    "static/media/pattern-divider-desktop.svg": "/random-advice-generator/static/media/pattern-divider-desktop.ed9685263f6b47d21c88.svg",
+    "static/media/pattern-divider-mobile.svg": "/random-advice-generator/static/media/pattern-divider-mobile.aca38726412164df099c.svg",
+    "main.cac8305f.css.map": "/random-advice-generator/static/css/main.cac8305f.css.map",
+    "main.4f0032ab.js.map": "/random-advice-generator/static/js/main.4f0032ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cac8305f.css",
+    "static/js/main.4f0032ab.js"
+  ]
+}
